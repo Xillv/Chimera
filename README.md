@@ -44,6 +44,7 @@ python run_chimera_political.py
 ----------
 
 ###  Reference
+If you find this repository beneficial, we kindly encourage you to cite our paper and consider starring the repository.
 
 
 

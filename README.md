@@ -13,10 +13,6 @@ This repository contains the source code and datasets associated with the paper 
 
 ----------
 
-
-
-----------
-
 ### Requirements
 
 - conda env create -f Chimera.yaml

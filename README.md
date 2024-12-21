@@ -6,11 +6,16 @@ This repository contains the source code and datasets associated with the paper 
 ----------
 
 ## Overview
+
 <p align="center">
   <img src="./framework.png" width="800"/>
 </p>
+
 ----------
 
+## Code Usage
+
+----------
 
 ### Requirements
 
@@ -19,7 +24,7 @@ This repository contains the source code and datasets associated with the paper 
 
 ----------
 
-### Datasedevicet
+### Datasets
 1. Constructed datasets: Twitter2015 ([twitter2015](data/twitter2015)), Twitter2017 ([twitter2017](data/twitter2017)) and Political Twitter ([political_twitter](data/political_twitter)).
 2. Image features can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1bLEz_sr1loC4TPa39S30L4a7lB2r-ACr?usp=sharing). Place the downloaded files in the directories `data/twitter2015` and `data/twitter2017`, respectively. For the `political_twitter` dataset, move the contents of `data/twitter2015` and `data/twitter2017` into `data/political_twitter` and extract the two `.zip` files into the same directory.
 

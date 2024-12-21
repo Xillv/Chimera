@@ -50,4 +50,4 @@ python run_chimera_political.py
 
 ### Acknoeledgement
 
-This work is primarily built upon the repositories of [MDCA](https://github.com/rf-x/MDCA) and [LAPS]([https://drive.google.com/drive/folders/1bLEz_sr1loC4TPa39S30L4a7lB2r-ACr?usp=sharing](https://github.com/CrossmodalGroup/LAPS)). Sincere gratitude is extended to everyone who contributed to this project for their invaluable support and dedication.
+This work is primarily built upon the repositories of [MDCA](https://github.com/rf-x/MDCA) and [LAPS](https://github.com/CrossmodalGroup/LAPS). Sincere gratitude is extended to everyone who contributed to this project for their invaluable support and dedication.

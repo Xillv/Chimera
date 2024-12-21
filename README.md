@@ -6,12 +6,11 @@ This repository contains the source code and datasets associated with the paper 
 ----------
 
 ## Overview
-
+<p align="center">
+  <img src="./framework.png" width="800"/>
+</p>
 ----------
 
-## Code Usage
-
-----------
 
 ### Requirements
 

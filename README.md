@@ -8,7 +8,7 @@ This repository contains the source code and datasets associated with the paper 
 ## Overview
 
 <p align="center">
-  <img src="./chimera.pdf" width="800"/>
+  <img src="./chimera.png" width="800"/>
 </p>
 
 ----------
@@ -41,6 +41,13 @@ python run_chimera_17.py
 
 python run_chimera_political.py
 
+----------
+
+###  Reference
+
+
+
+
 ### Acknoeledgement
 
-This work is primarily built upon the repositories of MDCA and LAPS. Sincere gratitude is extended to everyone who contributed to this project for their invaluable support and dedication.
+This work is primarily built upon the repositories of [MDCA](https://github.com/rf-x/MDCA) and [LAPS]([https://drive.google.com/drive/folders/1bLEz_sr1loC4TPa39S30L4a7lB2r-ACr?usp=sharing](https://github.com/CrossmodalGroup/LAPS)). Sincere gratitude is extended to everyone who contributed to this project for their invaluable support and dedication.

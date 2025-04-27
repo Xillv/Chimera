@@ -44,9 +44,36 @@ python run_chimera_political.py
 ----------
 
 ###  Reference
-If you find this repository beneficial, we kindly encourage you to cite our paper and consider starring the repository.
+If you find this repository beneficial, we kindly encourage you to cite our related papers and consider starring the repository.
+
+```
+@article{xiao2025exploring,
+  title={Exploring Cognitive and Aesthetic Causality for Multimodal Aspect-Based Sentiment Analysis},
+  author={Xiao, Luwei and Mao, Rui and Zhao, Shuai and Lin, Qika and Jia, Yanhao and He, Liang and Cambria, Erik},
+  journal={arXiv preprint arXiv:2504.15848},
+  year={2025}
+}
+
+@article{xiao2024atlantis,
+  title={Atlantis: Aesthetic-oriented multiple granularities fusion network for joint multimodal aspect-based sentiment analysis},
+  author={Xiao, Luwei and Wu, Xingjiao and Xu, Junjie and Li, Weijie and Jin, Cheng and He, Liang},
+  journal={Information Fusion},
+  volume={106},
+  pages={102304},
+  year={2024},
+  publisher={Elsevier}
+}
+
+@inproceedings{xiao2024vanessa,
+  title={Vanessa: Visual connotation and aesthetic attributes understanding network for multimodal aspect-based sentiment analysis},
+  author={Xiao, Luwei and Mao, Rui and Zhang, Xulang and He, Liang and Cambria, Erik},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2024},
+  pages={11486--11500},
+  year={2024}
+}
 
 
+```
 
 
 ### Acknoeledgement

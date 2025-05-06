@@ -50,8 +50,11 @@ If you find this repository beneficial, we kindly encourage you to cite our rela
 @article{xiao2025exploring,
   title={Exploring Cognitive and Aesthetic Causality for Multimodal Aspect-Based Sentiment Analysis},
   author={Xiao, Luwei and Mao, Rui and Zhao, Shuai and Lin, Qika and Jia, Yanhao and He, Liang and Cambria, Erik},
-  journal={arXiv preprint arXiv:2504.15848},
-  year={2025}
+  journal={IEEE Transactions on Affective Computing},
+  number={01},
+  pages={1--18},
+  year={2025},
+  publisher={IEEE Computer Society}
 }
 
 @article{xiao2024atlantis,

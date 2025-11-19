@@ -1,19 +1,22 @@
+# 🌌 Chimera: A Cognitive & Aesthetic Sentiment Causality Understanding Framework
 
+This repository provides the source code and datasets for our paper:  
+📄 **[Exploring Cognitive and Aesthetic Causality for Multimodal Aspect-Based Sentiment Analysis](https://arxiv.org/pdf/2504.15848?)**
 
-# Chimera: A cognitive and aesthetic sentiment causality understanding framework
-
-This repository contains the source code and datasets associated with the paper titled 
-**[Exploring Cognitive and Aesthetic Causality for Multimodal Aspect-Based Sentiment Analysis](https://arxiv.org/pdf/2504.15848?)**.
-
-
-
-----------
-
-## Overview
+## 🚀 Overview
 
 <p align="center">
-  <img src="./chimera.png" width="800"/>
+  <img src="./chimera.png" alt="Chimera Framework" width="800"/>
 </p>
+
+Chimera is a unified framework designed to model **cognitive reasoning** and **aesthetic perception** in multimodal aspect-based sentiment analysis (MABSA). It integrates text–image interaction, sentiment causality understanding, and fine-grained multimodal reasoning.
+
+## 📦 Environment Requirements
+
+We recommend using **conda** for environment management:
+
+```bash
+conda env create -f Chimera.yaml
 
 ----------
 

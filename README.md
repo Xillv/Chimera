@@ -86,6 +86,10 @@ If you find this repository helpful, please consider starring ⭐ the repo and c
 ```
 
 
-### Acknoeledgement
+### 🙏 Acknowledgements
 
-This work is primarily built upon the repositories of [MDCA](https://github.com/rf-x/MDCA) and [LAPS](https://github.com/CrossmodalGroup/LAPS). Sincere gratitude is extended to everyone who contributed to this project for their invaluable support and dedication.
+This work is primarily built upon the repositories of [MDCA](https://github.com/rf-x/MDCA) and [LAPS](https://github.com/CrossmodalGroup/LAPS). We extend our sincere gratitude to all contributors for their valuable insights and support.
+
+----------
+
+✨ Thank you for your interest in Chimera! Feel free to open issues or pull requests to help improve this project.

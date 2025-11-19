@@ -1,6 +1,8 @@
 # Chimera: A cognitive and aesthetic sentiment causality understanding framework
 
-This repository contains the source code and datasets associated with the paper titled "Exploring Cognitive and Aesthetic Causality for Multimodal Aspect-Based Sentiment Analysis."
+This repository contains the source code and datasets associated with the paper titled 
+**[Exploring Cognitive and Aesthetic Causality for Multimodal Aspect-Based Sentiment Analysis](https://arxiv.org/pdf/2504.15848?)**.
+
 
 
 ----------

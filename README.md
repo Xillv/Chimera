@@ -17,7 +17,7 @@ Chimera is a unified framework designed to model **cognitive reasoning** and **a
 
 ----------
 
-## 📦 Environment Requirements
+### 📦 Environment Requirements
 
 We recommend using **conda** for environment management:
 

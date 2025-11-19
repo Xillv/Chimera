@@ -9,7 +9,7 @@ This repository provides the **source code** and **datasets** for our paper:
 
 ----------
 
-## Overview
+## 🚀 Overview
 
 <p align="center">
   <img src="./chimera.png" alt="Chimera Framework" width="800"/>
@@ -20,7 +20,7 @@ It integrates text–image interaction, sentiment causality understanding, and f
 
 ----------
 
-### Requirements
+### 📦 Environment Requirements
 
 We recommend using **conda** for environment management:
 

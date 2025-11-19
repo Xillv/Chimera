@@ -1,73 +1,56 @@
-# 🌌 Chimera: A Cognitive & Aesthetic Sentiment Causality Understanding Framework
 
-This repository provides the source code and datasets for our paper:  
-📄 **[Exploring Cognitive and Aesthetic Causality for Multimodal Aspect-Based Sentiment Analysis](https://arxiv.org/pdf/2504.15848?)**
 
-## 🚀 Overview
+# Chimera: A cognitive and aesthetic sentiment causality understanding framework
+
+This repository contains the source code and datasets associated with the paper titled 
+**[Exploring Cognitive and Aesthetic Causality for Multimodal Aspect-Based Sentiment Analysis](https://arxiv.org/pdf/2504.15848?)**.
+
+
+
+----------
+
+## Overview
 
 <p align="center">
-  <img src="./chimera.png" alt="Chimera Framework" width="800"/>
+  <img src="./chimera.png" width="800"/>
 </p>
 
-Chimera is a unified framework designed to model **cognitive reasoning** and **aesthetic perception** in multimodal aspect-based sentiment analysis (MABSA). It integrates text–image interaction, sentiment causality understanding, and fine-grained multimodal reasoning.
+----------
 
-## 📦 Environment Requirements
+### Requirements
 
-We recommend using **conda** for environment management:
+- conda env create -f Chimera.yaml
 
-```bash
-conda env create -f Chimera.yaml
-📚 Datasets
-1. Constructed Datasets
-Twitter2015 → data/twitter2015
 
-Twitter2017 → data/twitter2017
+----------
 
-Political Twitter → data/political_twitter
+### Datasets
+1. Constructed datasets: Twitter2015 ([twitter2015](data/twitter2015)), Twitter2017 ([twitter2017](data/twitter2017)) and Political Twitter ([political_twitter](data/political_twitter)).
+2. Image features can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1bLEz_sr1loC4TPa39S30L4a7lB2r-ACr?usp=sharing). Place the downloaded files in the directories `data/twitter2015` and `data/twitter2017`, respectively. For the `political_twitter` dataset, move the contents of `data/twitter2015` and `data/twitter2017` into `data/political_twitter` and extract the two `.zip` files into the same directory.
 
-2. Image Feature Downloads
-Image features can be downloaded from:
 
-🔗 Google Drive
-https://drive.google.com/drive/folders/1bLEz_sr1loC4TPa39S30L4a7lB2r-ACr?usp=sharing
+----------
 
-Place them in the following locations:
+### Pretrained Models
+- The Flan-T5 model is utilized as the backbone. Download the pre-trained model [google/flan-t5-base](https://huggingface.co/google/flan-t5-base) and save it in the directory `pretrained/flan-t5-base`.
 
-For Twitter2015 → data/twitter2015
 
-For Twitter2017 → data/twitter2017
+----------
 
-For Political Twitter:
+###  Training and Evaluating 
 
-Move all contents from data/twitter2015 and data/twitter2017 into data/political_twitter
-
-Extract the two .zip files into the same directory
-
-🤖 Pretrained Model
-Chimera uses Flan-T5 as the backbone.
-
-Download the pretrained checkpoint:
-
-📥 google/flan-t5-base
-
-Save it under:
-
-bash
-Copy code
-pretrained/flan-t5-base
-🏋️ Training & Evaluation
-Run the corresponding training script:
-
-bash
-Copy code
 python run_chimera_15.py
-python run_chimera_17.py
-python run_chimera_political.py
-📖 Citation
-If you find this repository helpful, please consider starring ⭐ the repo and citing our papers:
 
-graphql
-Copy code
+python run_chimera_17.py
+
+python run_chimera_political.py
+
+----------
+
+###  Reference
+If you find this repository beneficial, we kindly encourage you to cite our related papers and consider starring the repository.
+
+```
 @article{xiao2025exploring,
   title={Exploring Cognitive and Aesthetic Causality for Multimodal Aspect-Based Sentiment Analysis},
   author={Xiao, Luwei and Mao, Rui and Zhao, Shuai and Lin, Qika and Jia, Yanhao and He, Liang and Cambria, Erik},
@@ -88,19 +71,16 @@ Copy code
 
 @inproceedings{xiao2024vanessa,
   title={Vanessa: Visual connotation and aesthetic attributes understanding network for multimodal aspect-based sentiment analysis},
-  author={Xiao, Luweи and Mao, Rui and Zhang, Xulang and He, Liang and Cambria, Erik},
+  author={Xiao, Luwei and Mao, Rui and Zhang, Xulang and He, Liang and Cambria, Erik},
   booktitle={Findings of the Association for Computational Linguistics: EMNLP 2024},
   pages={11486--11500},
   year={2024}
 }
-🙏 Acknowledgements
-Chimera is built upon the excellent foundations of:
 
-MDCA
 
-LAPS
+```
 
-We extend our sincere gratitude to all contributors for their valuable insights and support.
 
-yaml
-Copy code
+### Acknoeledgement
+
+This work is primarily built upon the repositories of [MDCA](https://github.com/rf-x/MDCA) and [LAPS](https://github.com/CrossmodalGroup/LAPS). Sincere gratitude is extended to everyone who contributed to this project for their invaluable support and dedication.

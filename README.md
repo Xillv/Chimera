@@ -1,45 +1,48 @@
 
+
 # 🌌 Chimera: A Cognitive & Aesthetic Sentiment Causality Understanding Framework
 
-This repository provides the source code and datasets for our paper:  
+This repository provides the **source code** and **datasets** for our paper:  
 📄 **[Exploring Cognitive and Aesthetic Causality for Multimodal Aspect-Based Sentiment Analysis](https://arxiv.org/pdf/2504.15848?)**
+
 
 
 ----------
 
-## 🚀 Overview
+## Overview
 
 <p align="center">
   <img src="./chimera.png" alt="Chimera Framework" width="800"/>
 </p>
 
-Chimera is a unified framework designed to model **cognitive reasoning** and **aesthetic perception** in multimodal aspect-based sentiment analysis (MABSA). It integrates text–image interaction, sentiment causality understanding, and fine-grained multimodal reasoning.
+Chimera is a unified framework designed to model **cognitive reasoning** and **aesthetic perception** in multimodal aspect-based sentiment analysis (MABSA).  
+It integrates text–image interaction, sentiment causality understanding, and fine-grained multimodal reasoning.
 
 ----------
 
-### 📦 Environment Requirements
+### Requirements
 
 We recommend using **conda** for environment management:
 
-```bash
 conda env create -f Chimera.yaml
+
 
 ----------
 
-### Datasets
+### 📚 Datasets
 1. Constructed datasets: Twitter2015 ([twitter2015](data/twitter2015)), Twitter2017 ([twitter2017](data/twitter2017)) and Political Twitter ([political_twitter](data/political_twitter)).
 2. Image features can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1bLEz_sr1loC4TPa39S30L4a7lB2r-ACr?usp=sharing). Place the downloaded files in the directories `data/twitter2015` and `data/twitter2017`, respectively. For the `political_twitter` dataset, move the contents of `data/twitter2015` and `data/twitter2017` into `data/political_twitter` and extract the two `.zip` files into the same directory.
 
 
 ----------
 
-### Pretrained Models
+### 🤖 Pretrained Model
 - The Flan-T5 model is utilized as the backbone. Download the pre-trained model [google/flan-t5-base](https://huggingface.co/google/flan-t5-base) and save it in the directory `pretrained/flan-t5-base`.
 
 
 ----------
 
-###  Training and Evaluating 
+###  🏋️ Training & Evaluation
 
 python run_chimera_15.py
 
@@ -49,8 +52,8 @@ python run_chimera_political.py
 
 ----------
 
-###  Reference
-If you find this repository beneficial, we kindly encourage you to cite our related papers and consider starring the repository.
+###  📖 Citation
+If you find this repository helpful, please consider starring ⭐ the repo and citing our related work:
 
 ```
 @article{xiao2025exploring,

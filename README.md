@@ -15,8 +15,8 @@ This repository provides the **source code** and **datasets** for our paper:
   <img src="./chimera.png" alt="Chimera Framework" width="800"/>
 </p>
 
-Chimera is a unified framework designed to model **cognitive reasoning** and **aesthetic perception** in multimodal aspect-based sentiment analysis (MABSA).  
-It integrates text–image interaction, sentiment causality understanding, and fine-grained multimodal reasoning.
+Chimera is a unified framework designed to model **cognitive reasoning** and **aesthetic perception** in multimodal aspect-based sentiment analysis (MABSA). It integrates text–image interaction, sentiment causality understanding, and fine-grained multimodal reasoning.
+
 
 ----------
 

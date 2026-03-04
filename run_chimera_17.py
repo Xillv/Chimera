@@ -127,7 +127,7 @@ def main():
     test_dataset = Twitter_Dataset_FlanT5(args, split='test')
 
     # Build Model
-    model = MDCAFlanT5Model(args)
+    model = Chimera(args)
     model.to(args.device)
 
     # Train Model
@@ -150,3 +150,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
